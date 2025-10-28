@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('silent-hill-2-playstation-5-game-playstation-store-cover (1).jpg'); 
+  background-size: cover;             
+  background-position: center;        
+  background-repeat: no-repeat;      
+  height: 100vh;                        
+}
+li {
+    color: #222;
+}
+  body {
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+.btn {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction:  line;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(100, 100, 100, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.btn button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(150, 150, 150, 0.2); 
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn button:hover {
+  background: rgba(180, 180, 180, 0.3);
+  transform: scale(1.05);
+}
+    #MyImage {
+width: 300px;
+  cursor: pointer;
+  transition: transform 1s ease;
+  top: 23%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-radius: 20%;
+   position: absolute;
+  top: 30%;
+  right: 30px;
+  margin-top: 54px;
+}
+#MyImage:hover {
+  transform: scale(1.1);
+}
+#PAGE {
+    width: 300px;
+    cursor: pointer;
+  transition: transform 1s ease;
+    border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-radius: 20%;
+  position: absolute;
+  left: 30px;
+  top: 35%;
+  
+}
+#PAGE:hover {
+    transform: scale(1.1);
+}
+
+
+ 
