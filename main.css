@@ -59,7 +59,7 @@ width: 300px;
   border-top-left-radius: 20px;
   border-radius: 20%;
    position: absolute;
-  top: 30%;
+  top: 33%;
   right: 30px;
   margin-top: 54px;
 }
@@ -77,12 +77,30 @@ width: 300px;
   border-radius: 20%;
   position: absolute;
   left: 30px;
-  top: 35%;
+  top: 39%;
   
 }
 #PAGE:hover {
     transform: scale(1.1);
 }
 
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    font-size: 18px;
+  }
+  .menu {
+    display: block;
+  }
+}
 
  
+
